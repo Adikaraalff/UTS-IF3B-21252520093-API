@@ -10,5 +10,5 @@ class Courses extends Model
 {
     use HasUuids, HasFactory;
 
-    protected $fillable = ["nama", "dosen"];
+    protected $fillable = ['nama', 'dosen'];
 }
